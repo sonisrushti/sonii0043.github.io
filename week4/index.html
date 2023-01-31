@@ -10,18 +10,36 @@
 
 <body>
     <!-- This is a comment -->
-    <!-- Site Header -->
+    <!-- 
+        shift will indent & shift+tab will indent backwards.
+        ctrl+leftright arrows move to start & end of the line.
+        ctrl+up/down arrows move to start & end of page.
+        shift+ctrl+left/right / up/down arrows select to the start/end of a line.
+        shift+ up/down arrows select per line.   
+     -->
     <header> 
         <h1>Reggie's Coffee Shop</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <!-- starting main content of the page -->
     <main>
+        <!--Adding an on page link-->
+        <a href="#treats">Treat of the week</a>
         <!-- article of the page. This can be used as a stand alone -->
         
 
         
         
         <h2>Our Story</h2>
+        <!--Adding image-->
+        <img src="./images/coffee-shop.jpg" title="Coffee cup on a pile of coffee" alt="coffee">
         <p>
             We are a &nbsp;<em>family owned business.</em> Reggie is the <abbr title="Chief Executive Officer">CEO</abbr> and the head barrista of the shop. Maria is the pastry chef.
         </p>
@@ -61,7 +79,7 @@
         </section>
 
         <!-- ADDING SECTION FOR A DESCRIPTION LIST -->
-            <section>
+            <section id="treats">
                 <h3>Treat of the week</h3>
                 <dl>
                     <dt>Name</dt>
@@ -80,6 +98,8 @@
                             <li>Choclate Syrup</li>
                         </ul>
                     </dd>
+                    <!--Adding an External link-->
+                    <a href="https://www.inthekitchenwithmatt.com/nutella-bread" target="_top">Recipe of nutella-bread</a>
                 </dl>
             </section>
         
