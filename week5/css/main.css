@@ -1,0 +1,148 @@
+/* This is a CSS comment Shortcut 
+for adding a comment*/
+
+body{
+    font-family: sans-serif;
+    color: rgb(26, 95, 232);
+}
+
+h1{
+    color: crimson;
+}
+
+p{
+    background-color: antiquewhite;
+}
+
+/*Selecting multiple elements*/
+
+h1,h2,h3{
+    color: brown;
+    text-decoration: underline; text-decoration-style: wavy;
+}
+
+/* Selecting child elements*/
+nav ul{
+    list-style: none;
+}
+
+nav ul a {
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+/* Selecting element with ID value */
+
+#treats{
+    background-color:antiquewhite;
+}
+
+.blue-link{
+    background-color: rgb(226, 248, 204);
+    text-decoration: none;
+    color: chocolate;
+}
+
+.large-text{
+    font-size: large;
+    color: blueviolet;
+}
+
+.white{
+    color: black;
+}
+
+/*Combinators 
+direct child selector - will only select child of the parent*/
+
+article>p {
+    font-size: 20xp;
+}
+
+/* Adjacent sibling selector - selects the element that is very next sibling to the selected element
+*/
+/*borde 1px border type solid color*/
+h3+ul{
+    border:1px solid yellow ;
+}
+h3~p{
+    text-transform: uppercase;
+}
+/* Selectors */
+[href="#treats"] {
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Lucida Sans';
+    color:black ;
+}
+
+/* For SPECIFIC IMG */
+[src="./images/coffee-shop.jpg"]{
+    border: 12px solid green;
+}
+
+/* For ALL IMAGES on a page
+[src$=".jpg"]{
+    border: 4px solid blue;
+} 
+*/
+
+/* Pseudo Classes*/
+/* Styling navigation box-shadow: vertical hor blur spread color;
+}*/
+
+nav ul a,
+nav ul a:link,
+nav ul a:visited{
+    color: blueviolet; 
+    box-shadow: 1px 1px 8px 2px blue;
+}
+    
+nav ul .current, /**/
+nav ul a:hover,
+nav ul a:focus{
+    text-decoration: none;
+    background-color: antiquewhite;
+}
+
+nav ul a:active{
+    box-shadow: 0px 0px 5px 1px red ;
+}
+
+/* Position Selectors
+   First Child and Last Child*/
+
+aside ul li:first-child{
+    font-weight: bold;
+}   
+
+section ol li:last-child{
+    font-weight: bold;
+}
+
+
+/*Using nth Child with n
+where n is 0,1,2....until num of elements*/
+
+table{
+   border-collapse: collapse;
+
+}
+
+/* nth child selector - even / odd 
+hex color value with 6 chars*/
+
+tbody tr:nth-child(even){
+    background-color: #d5836d;
+}
+
+table th:nth-child(n), 
+table td:nth-child(n){
+    border: 1px solid green;
+}
+
+/*using formula in nth-child selector*/
+
+table td:nth-child(2n+1){
+    background-color: rgba(0, 0, 0, 0.2)
+}
