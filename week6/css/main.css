@@ -1,18 +1,23 @@
 /* This is a CSS comment Shortcut 
 for adding a comment*/
 
+/* BACKGROUND IMAGE & PROPERTIES */
+
 body{
     font-family: sans-serif;
     color: rgb(26, 95, 232);
+    background-image: url(../images/white_brick_wall.png);
+        
+}
+
+html{
+    font-size: 1rem;
 }
 
 h1{
     color: crimson;
 }
 
-p{
-    background-color: antiquewhite;
-}
 
 /*Selecting multiple elements*/
 
@@ -29,12 +34,24 @@ nav ul{
 nav ul a {
     color: darkolivegreen;
     text-decoration: none;
+    font-size: 1rem;
+
 }
 
 /* Selecting element with ID value */
 
 #treats{
-    background-color:antiquewhite;
+    background:antiquewhite url(../images/bread.jpg) no-repeat center;
+    opacity: 0.2;
+    background-size: cover;
+    color: white;
+    font-size: 1.5rem;
+    padding: 5rem;      /*spacing around the text from top and from bottom*/
+    /* background cover */  
+    /* height: 100vw; scroll wheel becoz it has space coming from the parent, it goes out of the screen which is not ideal*/
+    /*  */
+
+    border: 1.25rem solid black;
 }
 
 .blue-link{
@@ -55,8 +72,14 @@ nav ul a {
 /*Combinators 
 direct child selector - will only select child of the parent*/
 
+/* CSS TYPOGRAPHY */
+
 article>p {
     font-size: 20xp;
+    font-weight:400;
+    line-height: 8px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /* Adjacent sibling selector - selects the element that is very next sibling to the selected element
@@ -179,3 +202,6 @@ footer.site-footer{
     text-decoration:none;
 }
 */
+
+
+
