@@ -4,32 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Simple HTML Website</title>
-
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
-        <h1>Srushti Soni</h1>
+        <h1 class="site-title">Srushti Soni</h1>
+        <nav>
+
+            <a href="index.html">Home</a> &nbsp;
+            <a href="notes.html">Notes</a>
+
+        </nav>
     </header>
     <hr>
     <main>
-        <nav>
-   
-            <a href="index.html">Home</a> &nbsp; 
-            <a href="notes.html">Notes</a>
-    
-        </nav>
-        <hr>
+
+
         <article>
 
             <h2>About Me</h2>
 
-            <img src="./images/my.jpg" title="My Photo" alt="Self-Portrait" height="300">
+            <img src="./images/my.jpg" title="My Photo" alt="This is a Self-portrait photo of Srushti" id="my-image">
             <br><br>
             <hr>
             <h3><em>My Hobbies</em></h3>
             <!--ADDING UNORDERED LIST  -->
-            <ul>
+            <ul class="hobbies_list">
                 <li>Listening to Music</li>
                 <li>Painting</li>
                 <li>Gaming</li>

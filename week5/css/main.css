@@ -146,3 +146,36 @@ table td:nth-child(n){
 table td:nth-child(2n+1){
     background-color: rgba(0, 0, 0, 0.2)
 }
+
+/* Css Specificity 
+   Formula: In-line Style, ID, Class, Tag Name[num elements we take like div n p then it will be 2] (0,0,0,0)*/
+
+/* (0,0,0,1) */   
+footer{
+    background-color: beige;
+}   
+
+/* (0,0,0,2) */ 
+
+body footer{
+    background-color: beige;
+}  
+
+/* (0,0,1,0) 
+
+.site-footer{
+    background-color: beige;
+}   
+
+(0,0,0,2)
+
+article h2{
+    text-decoration:none;
+}
+
+(0,0,1,1)
+
+footer.site-footer{
+    text-decoration:none;
+}
+*/
