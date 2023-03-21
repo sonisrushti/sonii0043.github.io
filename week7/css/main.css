@@ -7,11 +7,39 @@ body{
     font-family: sans-serif;
     color: rgb(26, 95, 232);
     background-image: url(../images/white_brick_wall.png);
+    padding-top: 99px;
         
 }
 
+/*Box model example*/
+
+section p{
+    width: 50%;
+    /*single value top.bottom/left/right
+    2 values first value top/bottom , 2nd value left right
+    
+    */
+    padding: 10em 10em;   /*top-bottom left-right*/
+
+    /*
+    top right bottom left
+    */
+    margin: 1em 2em 2em 2em;
+    border: 2px solid black;}
+
+
 html{
     font-size: 1rem;
+}
+
+.container{
+    /*always create a container containing everything inside the body tag*/
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+img{
+    width: 100%;
 }
 
 h1{
@@ -31,10 +59,26 @@ nav ul{
     list-style: none;
 }
 
+nav ul li{
+    display: inline-block;
+    padding: 1em;
+
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    
+}
 nav ul a {
     color: darkolivegreen;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2rem;
+    
 
 }
 
@@ -52,17 +96,51 @@ nav ul a {
     /*  */
 
     border: 1.25rem solid black;
+    position: relative;
+}
+
+/* specification 0020*/
+
+.blue-link.large-text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+   
 }
 
 .blue-link{
     background-color: rgb(226, 248, 204);
     text-decoration: none;
     color: chocolate;
+    float: right;
+    
 }
 
 .large-text{
+    padding: 1.5em; /*1.5 time from the font size*/
+    width: 300px;
+    display: inline-block;
     font-size: large;
     color: blueviolet;
+}
+
+
+article, aside
+{
+    width: 80%;
+    background-color: rgb(255, 255, 255, 0.6);
+    border: 1px solid black;
+    padding: 1.52em;
+    box-sizing: border-box;
+    float: left;
+}
+
+aside{
+    width: 20%;
+}
+
+section{
+    clear: both;
 }
 
 .white{
