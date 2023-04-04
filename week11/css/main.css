@@ -243,6 +243,19 @@ p {
     }
 }
 
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1em;
+}
+
+/********NEWS SECTION************/
+.news {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+grid-template-rows: ;
+}
+
 /************************ 
     MEDIA QUERY 800px
 *************************/

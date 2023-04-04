@@ -1,0 +1,27 @@
+
+/*font-family: 'Playfair Display', serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+h1{
+    font-family:'Playfair Display', serif;
+
+}
+
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* make changes to icons*/
+h1 i::before{
+    font-size: 3rem;
+    color:lightblue;
+}
+
+.map iframe{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
