@@ -1,6 +1,19 @@
+.container {
+
+    max-width: 1120px;
+    margin: 0 auto;
+
+
+
+}
+
 header nav {
     background-color: #222;
 
+}
+
+.masthead .logo{
+    background-color: #c78c06;
 }
 
 body {
@@ -52,6 +65,7 @@ h1 {
 .index {
     background-color: #c78c06;
 }
+
 
 .nav-list a:hover,
 .nav-list a:focus,
@@ -163,23 +177,360 @@ p {
 }
 
 
+.our-services img {
+    width: 90%;
+}
 
 #services {
+
     line-height: normal;
 }
 
-#services h2 {
-    margin: 20px;
+#services div img {
+
+    padding: 0px 20px;
+}
+
+
+#services div h2 {
+    margin-top: -1px;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
 }
 
 .card1 {
     background-color: #ffe6ac;
-    margin: 20px;
+    margin-left: 18px;
+    margin-right: 15px;
+    padding: 25px;
+
 }
 
-.card1 img {
+.b_digi {
+
+    color: white;
+    background-color: #222;
+    border: none;
+    padding: 25px;
+
+    margin-top: 25px;
+}
+
+.b_digi a {
+
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+
+#marketing {
+
+    line-height: normal;
+}
+
+#marketing div img {
+
+    padding: 0px 20px;
+}
+
+
+#marketing div h2 {
+    margin-top: -1px;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+}
+
+.card2 {
+    background-color: #ffe6ac;
+    margin-left: 18px;
+    margin-right: 15px;
+    padding: 25px;
+}
+
+.video-plans {
+
+    line-height: normal;
+}
+
+.video-plans div img {
+
+    padding: 0px 20px;
+}
+
+
+.video-plans div h2 {
+    margin-top: -1px;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+}
+
+.card3 {
+    background-color: #ffe6ac;
+    margin-left: 18px;
+    margin-right: 15px;
+    padding: 25px;
+}
+
+
+
+.web-plans {
+
+    line-height: normal;
+}
+
+.web-plans div img {
+
+    padding: 0px 20px;
+}
+
+
+.web-plans div h2 {
+    margin-top: -1px;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+}
+
+.card4 {
+    background-color: #ffe6ac;
+    margin-left: 18px;
+    margin-right: 15px;
+    padding: 25px;
+}
+
+.print {
+
+    line-height: normal;
+}
+
+.print div img {
+
+    padding: 0px 20px;
+}
+
+
+.print div h2 {
+    margin-top: -1px;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+}
+
+.card5 {
+    background-color: #ffe6ac;
+    margin-left: 18px;
+    margin-right: 15px;
+    padding: 25px;
+}
+
+
+
+/*Vision section*/
+.vision{
+    margin-top: 20px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+.vision .vision-width{
+    padding: 40px 40px;
+    background-image: url(../images/vision.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    color: white;
+    margin-bottom: 45px;
+}
+.vision div p {
+    margin-top: -10px;
+font-size: 0.8rem;
+}
+.vision div h2 {
+
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+}
+
+.b_vis {
+
+    background-color: #222;
+    border: none;
+    padding: 11px;
+    margin-top: 25px;
+    color: rgb(34, 34, 34, 0.1);
+   
+}
+
+
+.b_vis a {
+    text-decoration: none;
+    color: white;
+}
+
+.vision h3 {
+    font-size: 2em;
+}
+
+.vision p {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.learn {
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #222;
+    border: 1px solid #c78c06;
+    font-size: 1em;
+    font-weight: 400;
+
+}
+
+.learn:hover {
+    color: #222;
+    background-color: #c78c06;
+}
+
+
+
+
+/*About Team*/
+
+.team {
+    background-color: #ffe6ac;
+    margin: 20px;
+    margin-top: 0;
+   
+}
+
+.t2 {
+    background-color: #ffe6ac;
+    margin: 20px;
+    margin-top: 0;
+}
+ .t h2{
+    padding-left: 20px;
+    margin-top: 7px;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+}
+
+ h3{
+    font-size: 1.5em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+}
+
+.team p {
+    margin-top: -17px;
+    font-size: 0.7rem;
+    padding-bottom: 10px;
+}
+
+.team img {
     width: 100%;
 }
+
+ hr {
+    border: 1px solid #c78c06
+}
+
+.team .john .bob{
+
+    padding: 20px 20px;
+    margin-top: 150px;
+}
+
+
+
+/*Contact Form*/
+
+.contact_form{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    
+}
+
+.inp-fields {
+    padding: 5px;
+    margin-top: 14px;
+    margin-bottom: 12px;
+    width: 97%;
+}
+.contact_form h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 800;
+}
+.contactbutton {
+    padding: 10px;
+    background-color: #222;
+    color: #c78c06;
+    text-transform: uppercase;
+    
+}
+
+
+.b_submit{
+    background-color: #222;
+    color: #c78c06;
+    padding: 10px;
+    border: 1px solid #c78c06;
+}
+
+.b_submit .submit{
+    font-size: 1.4em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+}
+
+.b_submit:hover {
+    background-color: #c78c06;
+    color: inherit;
+    border: 1px solid #222;
+}
+
+
+
+/*TABLE*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th:nth-child(n),
+table td:nth-child(n) {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #ffe6ac;
+}
+
+table th,
+table td {
+    padding: 10px;
+}
+
 
 /* Styling all services buttons */
 
@@ -200,18 +551,28 @@ p {
     background-color: white;
 }
 
+.map {
+    align-content: center;
+   
+}
+
 
 .footer {
+    margin-top: 10px;
     background-color: #222;
     color: #c78c06;
-    padding: 6%;
-    line-height: 2.5em;
+    padding: 8px;
+    padding-left: 12px;
+    line-height: 1.2em;
     width: 100%;
+    font-size: 1em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
 }
 
 .footer a {
     color: #c78c06;
-
+    
 }
 
 
@@ -224,3 +585,216 @@ p {
 **********************************
 ****MEDIA QUERIES FOR DESKTOP*****
 **********************************/
+
+
+
+
+@media screen and (min-width: 500px) {
+
+    .banner {
+        height: 500px;
+
+    }
+}
+
+/* adjust search bar*/
+
+@media screen and (min-width: 680px) {
+
+    .banner {
+        height: 450px;
+
+    }
+
+    .searchinput {
+      width: 90%;
+      border: none;
+      padding: 10px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 760px) {
+
+    /* Styling navigation */
+
+
+    .nav{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 10px;
+      }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-list li:nth-child(1) {
+        background-color: #222;
+    }
+
+    nav li {
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    .searchfield {
+        width: 20%;
+        border: none;
+        padding: 10px;
+    }
+
+
+    /* Styling Header */
+
+    h1 {
+        font-size: 4em;
+    }
+
+    .banner {
+        height: 300px;
+        padding-left: 10px;
+        padding-right: 10%;
+        background-position: -50% 50%;
+    }
+
+    .b_connect {
+        font-size: large;
+    }
+
+    .b_connect{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+
+    #abtus {
+        margin-top: 0px;
+    }
+
+    /* Styling services section */
+   
+
+   
+    .our-services {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 0.5fr 7fr 6fr;
+        grid-template-areas:
+            "1 1 1 1 1 1"
+            "2 2 2 3 3 3"
+            "4 4 5 5 6 6";
+       
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    #services h2 {
+        margin: 0px;
+        grid-area: our_ser;
+    }
+
+    .digi-plans {
+        grid-area: 2;
+    }
+
+    .marketing {
+        grid-area: 3;
+    }
+
+    .video-plans {
+        grid-area: 4;
+    }
+    .web-plans {
+        grid-area: 5;
+    }
+
+    .print {
+        grid-area: 6;
+    }
+
+    /* vision */
+
+    .b_vis {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .vision {
+        height: 200px;
+        background-pour_serition: -50% 30%;
+    }
+
+    .vision h3,
+    .vision p{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* Styling team in grid */
+
+    #team1 h2 {
+        padding-left: 0;
+    }
+
+    #team1 {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .t {
+        margin: 0 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .moveright {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    /* Styling Contact section in grid */
+
+    #cnt1 {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0.5fr 2fr 1.7fr;
+        grid-template-areas:
+            "cnt1 map"
+            "message message"
+            "hrs hrs";
+            gap: 1em;
+    }
+
+    #cnt1 h2 {
+        grid-area: cnt1;
+    }
+
+    #cnt1{
+        grid-area: message;
+    }
+
+    .map{
+        grid-area: map;
+    }
+    
+    .hrs {
+        grid-area: hrs;
+    }
+
+    footer p {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+}

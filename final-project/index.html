@@ -18,14 +18,14 @@
 <body>
     <div class="container">
         <header class="masthead">
-            <!--Logo-->
-            <div class="logo">
-                <img src="images/logo.png" alt="This image is of website Logo">
-            </div>
+           
 
             <!--Navigation-->
 
             <nav class="nav">
+                <div class="logo">
+                    <img src="images/logo.png" alt="This image is of website Logo">
+                </div>
                 <ul class="nav-list">
                     <li class="index"><a href="index.html">Home</a></li>
                     <li class=""><a href="#abtus"> About Us</a></li>
@@ -89,8 +89,8 @@
 
 
         <!--Our Services-->
-        <section class="our services width" id="services">
-            <div>
+        <section class="our-services" id="services">
+            <div class="card">
                 <h1>Our Services</h1>
 
                 <div class="digi-plans">
@@ -102,7 +102,7 @@
                             voluptate explicabo non. Deleniti harum blanditiis assumenda, expedita unde, fuga ad iste
                             vel exercitationem ratione pariatur doloremque numquam quod.
                         </p>
-                        <a href="">Digital Plans<i class="fa-sharp fa-solid fa-play"></i></a>
+                        <button class="b_digi"><a href="">Digital Plans  <i class="fa-sharp fa-solid fa-play"></i></a></button>
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@
                             voluptate explicabo non. Deleniti harum blanditiis assumenda, expedita unde, fuga ad iste
                             vel exercitationem ratione pariatur doloremque numquam quod.
                         </p>
-                        <a href="">Marketing Plans<i class="fa-sharp fa-solid fa-play"></i></a>
+                        <button  class="b_digi"><a href="">Marketing Plans <i class="fa-sharp fa-solid fa-play"></i></a></button>
                     </div>
                 </div>
 
@@ -130,7 +130,7 @@
                             voluptate explicabo non. Deleniti harum blanditiis assumenda, expedita unde, fuga ad iste
                             vel exercitationem ratione pariatur doloremque numquam quod.
                         </p>
-                        <a href="">Video Plans<i class="fa-sharp fa-solid fa-play"></i></a>
+                        <button  class="b_digi"> <a href="">Video Plans  <i class="fa-sharp fa-solid fa-play"></i></a></button>
                     </div>
                 </div>
 
@@ -144,7 +144,7 @@
                             voluptate explicabo non. Deleniti harum blanditiis assumenda, expedita unde, fuga ad iste
                             vel exercitationem ratione pariatur doloremque numquam quod.
                         </p>
-                        <a href="">Web Plans<i class="fa-sharp fa-solid fa-play"></i></a>
+                        <button  class="b_digi"><a href="">Web Plans <i class="fa-sharp fa-solid fa-play"></i></a></button>
                     </div>
                 </div>
 
@@ -158,7 +158,7 @@
                             voluptate explicabo non. Deleniti harum blanditiis assumenda, expedita unde, fuga ad iste
                             vel exercitationem ratione pariatur doloremque numquam quod.
                         </p>
-                        <a href="">Print Plans<i class="fa-sharp fa-solid fa-play"></i></a>
+                        <button  class="b_digi"><a href="">Print Plans <i class="fa-sharp fa-solid fa-play"></i></a></button>
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@
 
 
         <section class="vision">
-            <div class="vision width">
+            <div class="vision-width">
                 <h2>Our Vision</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, error! Officia sint beatae
@@ -176,37 +176,41 @@
                     repellendus.
                 </p>
 
-                <a href="">Learn More<i class="fa-sharp fa-solid fa-play"></i></a>
+                <button  class="b_vis"><a href="">Learn More <i class="fa-sharp fa-solid fa-play"></i></a>
+            </button>
 
             </div>
         </section>
         <!--vision ends-->
 
         <!--TEAM-->
+        <section class="t">
+            <h2>Our Team</h2>
         <div class="team" id="team1">
 
-            <h2>Our Team</h2>
+          
             <img src="images/john.jpg" alt="This image is of John one of the team members">
 
             <div class="john">
-                <h2>John Doe</h2>
+                <h3>John Doe</h3>
                 <h4>CEO and Co-owner</h4>
-                <hr>
+                <hr class="line">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita non blanditiis ipsum incidunt
                     perferendis iusto laudantium, magnam, error voluptatem temporibus ea. Sit accusamus ullam magnam
                     alias, dolorem atque sequi numquam?
                 </p>
             </div>
+        </section>
             <!--end of the john card-->
 
-
+            <section class="t2">
             <img src="images/bob.jpg" alt="This image is of Bob one of the team members">
 
             <div class="bob">
-                <h2>Bob Rite</h2>
+                <h3>Bob Rite</h3>
                 <h4>CFO and Co-owner</h4>
-                <hr>
+                <hr class="line">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita non blanditiis ipsum incidunt
                     perferendis iusto laudantium, magnam, error voluptatem temporibus ea. Sit accusamus ullam magnam
@@ -214,12 +218,13 @@
                 </p>
             </div>
         </div>
+    </section>
         <!--team div ends-->
 
         <!--Contact Form-->
 
         <section class="contact_form" id="cnt1">
-            <div class="cnt max width">
+            <div class="cnt">
                 <h1>Contact Us</h1>
 
 
@@ -227,22 +232,22 @@
                 <form action="thanks.html" method="get">
                     <h2> Send us a message</h2>
                     <div class="fields">
-                        <label for="fullname">Name</label>
-                        <input type="text" id="fullname" name="fullname" required>
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" required class="inp-fields">
                     </div>
 
                     <div class="fields">
                         <label for="youremail">Email</label>
-                        <input type="email" id="youremail" name="youremail" value="" required>
+                        <input type="email" id="youremail" name="youremail" value="" required class="inp-fields">
                     </div>
 
 
                     <div class="fields">
                         <label for="msg">Message</label>
-                        <textarea name="msg" id="msg" rows="5" cols="80"></textarea>
+                        <textarea name="msg" id="msg" rows="5" cols="80" class="inp-fields"></textarea>
                     </div>
 
-                    <button type="submit">Send</button>
+                    <button type="submit" class="b_submit"><span class="submit">Send</span></button>
                 </form>
 
 
@@ -250,6 +255,7 @@
 
                 <section>
                     <h2>Hours of operation</h2>
+                    <div class="hrs">
                     <table>
                         <tr>
                             <th>Days</th>
@@ -267,7 +273,7 @@
 
                         </tr>
                     </table>
-
+                </div>
 
 
 
