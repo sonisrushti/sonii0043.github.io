@@ -1,0 +1,226 @@
+header nav {
+    background-color: #222;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.fontopensans {
+    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+    display: block;
+    padding: 1em 0;
+    color: #c78c06;
+    text-decoration: none;
+}
+
+.nav-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+    color: #222;
+    text-decoration: none;
+    text-align: center;
+    background-color: #222;
+    padding: 1rem;
+}
+
+.index {
+    background-color: #c78c06;
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.index {
+    background-color: #c78c06;
+    color: #222;
+}
+
+/* Logo left */
+.nav-list li:nth-child(1) {
+    color: #222;
+    background-color: #c78c06;
+}
+
+/* Search bar and button end to end */
+.searchfield {
+    width: 80%;
+    border: none;
+    padding: 10px;
+
+}
+
+
+.searchbar {
+    padding: 10px;
+    color: #c78c06;
+    background-color: #222;
+    border: 1px solid #c78c06;
+    align-self: center;
+}
+
+
+.searchbar:hover {
+    background-color: #c78c06;
+    color: #222;
+}
+
+.banner {
+    background-image: url(../images/main-banner.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.b_content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    height: 330px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    line-height: 1.2em;
+    margin-bottom: 55px;
+    margin-top: 10px;
+}
+
+.b_content h1,
+p {
+    padding-top: 25px;
+
+}
+
+.b_content p {
+    padding-bottom: 15px;
+}
+
+.b_connect {
+    background-color: #c78c06;
+    border: none;
+    padding: 25px;
+}
+
+.b_connect:hover {
+    background-color: #222;
+    color: #c78c06;
+}
+
+
+.about-us {
+    background-color: #ffe6ac;
+}
+
+.about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us img {
+    width: 96%;
+    margin: 10px;
+}
+
+.aboutus {
+    line-height: normal;
+    margin-left: 12px;
+}
+
+.aboutus p {
+    margin-top: 15px;
+
+}
+
+.aboutus .abt-p2 {
+    padding-top: 0%;
+    padding-bottom: 30px;
+}
+
+
+
+#services {
+    line-height: normal;
+}
+
+#services h2 {
+    margin: 20px;
+}
+
+.card1 {
+    background-color: #ffe6ac;
+    margin: 20px;
+}
+
+.card1 img {
+    width: 100%;
+}
+
+/* Styling all services buttons */
+
+.servicebutton {
+    width: 100%;
+    padding: 30px;
+    margin-top: 20px;
+    color: white;
+    background-color: #222;
+    border: none;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.servicebutton:hover,
+.servicebutton:focus {
+    color: #222;
+    background-color: white;
+}
+
+
+.footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 6%;
+    line-height: 2.5em;
+    width: 100%;
+}
+
+.footer a {
+    color: #c78c06;
+
+}
+
+
+
+
+
+
+
+/*********************************
+**********************************
+****MEDIA QUERIES FOR DESKTOP*****
+**********************************/
