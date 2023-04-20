@@ -6,13 +6,14 @@
 
 
 }
+/*Code for Mobile Layout*/
 
 header nav {
     background-color: #222;
 
 }
 
-.masthead .logo{
+.masthead .logo {
     background-color: #c78c06;
 }
 
@@ -20,7 +21,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
+ 
+/*Every Heading 1 styling*/
 h1 {
     font-size: 3em;
     line-height: 1.2em;
@@ -28,26 +30,7 @@ h1 {
     font-weight: 700;
 }
 
-.padding {
-    padding: 20px;
-}
-
-.fontopensans {
-    line-height: normal;
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-
-.nav-list a,
-.nav-list a:link,
-.nav-list a:visited {
-    display: block;
-    padding: 1em 0;
-    color: #c78c06;
-    text-decoration: none;
-}
-
+/*Navigation list styling*/
 .nav-list {
     max-width: 1200px;
     margin: 0 auto;
@@ -62,11 +45,23 @@ h1 {
     padding: 1rem;
 }
 
+/*Navigation when it is clicked*/
+
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+    display: block;
+    padding: 1em 0;
+    color: #c78c06;
+    text-decoration: none;
+}
+
+
 .index {
     background-color: #c78c06;
 }
 
-
+/*When hover on the navbar*/
 .nav-list a:hover,
 .nav-list a:focus,
 .nav-list a.index {
@@ -74,13 +69,13 @@ h1 {
     color: #222;
 }
 
-/* Logo left */
+/* Logo */
 .nav-list li:nth-child(1) {
     color: #222;
     background-color: #c78c06;
 }
 
-/* Search bar and button end to end */
+/* Search bar and button */
 .searchfield {
     width: 80%;
     border: none;
@@ -103,6 +98,7 @@ h1 {
     color: #222;
 }
 
+/*Webpage banner and it's background image and text*/
 .banner {
     background-image: url(../images/main-banner.jpg);
     height: 400px;
@@ -146,32 +142,35 @@ p {
     color: #c78c06;
 }
 
-
+/*About us Page and its styling*/
 .about-us {
     background-color: #ffe6ac;
-}
-
-.about-us {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
 
 .about-us img {
     width: 96%;
     margin: 10px;
 }
 
-.aboutus {
+.about-us {
     line-height: normal;
     margin-left: 12px;
 }
 
-.aboutus p {
-    margin-top: 15px;
+.about-us p {
+    margin-top: 5px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    color: #222;
 
 }
 
-.aboutus .abt-p2 {
+.about-us .abt-p2 {
     padding-top: 0%;
     padding-bottom: 30px;
 }
@@ -336,12 +335,13 @@ p {
 
 
 /*Vision section*/
-.vision{
+.vision {
     margin-top: 20px;
     margin-left: 21px;
     margin-right: 21px;
 }
-.vision .vision-width{
+
+.vision .vision-width {
     padding: 40px 40px;
     background-image: url(../images/vision.jpg);
     background-size: cover;
@@ -350,10 +350,12 @@ p {
     color: white;
     margin-bottom: 45px;
 }
+
 .vision div p {
     margin-top: -10px;
-font-size: 0.8rem;
+    font-size: 0.8rem;
 }
+
 .vision div h2 {
 
     font-size: 1.5em;
@@ -369,7 +371,7 @@ font-size: 0.8rem;
     padding: 11px;
     margin-top: 25px;
     color: rgb(34, 34, 34, 0.1);
-   
+
 }
 
 
@@ -412,7 +414,7 @@ font-size: 0.8rem;
     background-color: #ffe6ac;
     margin: 20px;
     margin-top: 0;
-   
+
 }
 
 .t2 {
@@ -420,7 +422,8 @@ font-size: 0.8rem;
     margin: 20px;
     margin-top: 0;
 }
- .t h2{
+
+.t h2 {
     padding-left: 20px;
     margin-top: 7px;
     font-size: 1.5em;
@@ -429,7 +432,7 @@ font-size: 0.8rem;
     font-weight: 700;
 }
 
- h3{
+h3 {
     font-size: 1.5em;
     font-family: 'Open sans', sans-serif;
     font-weight: 700;
@@ -445,11 +448,11 @@ font-size: 0.8rem;
     width: 100%;
 }
 
- hr {
+hr {
     border: 1px solid #c78c06
 }
 
-.team .john .bob{
+.team .john .bob {
 
     padding: 20px 20px;
     margin-top: 150px;
@@ -459,11 +462,11 @@ font-size: 0.8rem;
 
 /*Contact Form*/
 
-.contact_form{
+.contact_form {
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 30px;
-    
+
 }
 
 .inp-fields {
@@ -472,7 +475,8 @@ font-size: 0.8rem;
     margin-bottom: 12px;
     width: 97%;
 }
-.contact_form h2{
+
+.contact_form h2 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1.5em;
@@ -480,23 +484,24 @@ font-size: 0.8rem;
     font-family: 'Open sans', sans-serif;
     font-weight: 800;
 }
+
 .contactbutton {
     padding: 10px;
     background-color: #222;
     color: #c78c06;
     text-transform: uppercase;
-    
+
 }
 
 
-.b_submit{
+.b_submit {
     background-color: #222;
     color: #c78c06;
     padding: 10px;
     border: 1px solid #c78c06;
 }
 
-.b_submit .submit{
+.b_submit .submit {
     font-size: 1.4em;
     font-family: 'Open sans', sans-serif;
     font-weight: 500;
@@ -553,7 +558,7 @@ table td {
 
 .map {
     align-content: center;
-   
+
 }
 
 
@@ -572,7 +577,7 @@ table td {
 
 .footer a {
     color: #c78c06;
-    
+
 }
 
 
@@ -607,9 +612,9 @@ table td {
     }
 
     .searchinput {
-      width: 90%;
-      border: none;
-      padding: 10px;
+        width: 90%;
+        border: none;
+        padding: 10px;
     }
 }
 
@@ -621,11 +626,11 @@ table td {
     /* Styling navigation */
 
 
-    .nav{
+    .nav {
         flex-direction: column;
         height: auto;
         padding-bottom: 10px;
-      }
+    }
 
     .nav-list {
         display: flex;
@@ -665,10 +670,10 @@ table td {
         font-size: large;
     }
 
-    .b_connect{
+    .b_connect {
         display: grid;
         grid-template-columns: 1fr 1fr;
-       
+
     }
 
     #abtus {
@@ -676,9 +681,9 @@ table td {
     }
 
     /* Styling services section */
-   
 
-   
+
+
     .our-services {
         max-width: 1200px;
         margin: 0 auto;
@@ -691,7 +696,7 @@ table td {
             "1 1 1 1 1 1"
             "2 2 2 3 3 3"
             "4 4 5 5 6 6";
-       
+
     }
 
     .card {
@@ -714,6 +719,7 @@ table td {
     .video-plans {
         grid-area: 4;
     }
+
     .web-plans {
         grid-area: 5;
     }
@@ -728,13 +734,14 @@ table td {
         max-width: 1200px;
         margin: 0 auto;
     }
+
     .vision {
         height: 200px;
         background-pour_serition: -50% 30%;
     }
 
     .vision h3,
-    .vision p{
+    .vision p {
         max-width: 1200px;
         margin: 0 auto;
     }
@@ -749,6 +756,7 @@ table td {
         max-width: 1200px;
         margin: 0 auto;
     }
+
     .t {
         margin: 0 0;
         display: grid;
@@ -773,21 +781,21 @@ table td {
             "cnt1 map"
             "message message"
             "hrs hrs";
-            gap: 1em;
+        gap: 1em;
     }
 
     #cnt1 h2 {
         grid-area: cnt1;
     }
 
-    #cnt1{
+    #cnt1 {
         grid-area: message;
     }
 
-    .map{
+    .map {
         grid-area: map;
     }
-    
+
     .hrs {
         grid-area: hrs;
     }
