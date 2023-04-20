@@ -6,6 +6,7 @@
 
 
 }
+
 /*Code for Mobile Layout*/
 
 header nav {
@@ -21,7 +22,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
 }
- 
+
 /*Every Heading 1 styling*/
 h1 {
     font-size: 3em;
@@ -148,7 +149,6 @@ p {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 
 
 .about-us img {
